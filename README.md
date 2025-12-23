@@ -16,7 +16,7 @@ These modules depend on `magento/module-csp`.
 
 ## Installation
 
-1. Add this forked module in `app/code` (`app/code/Magento/Csp`)
+1. Add this forked module in `app/code` (`app/code/Magento/Csp`) or add it with composer (`composer require magentix/magento-csp`)
 
 2. Remove the original module in `composer.json`:
 
