@@ -14,6 +14,12 @@ This lightweight, minimal module acts as a dependency resolver. It maintains com
 
 These modules depend on `magento/module-csp`.
 
+## Compatibility
+
+- [x] 2.4.6-p13 
+- [x] 2.4.7-p8
+- [x] 2.4.8-p3
+
 ## Installation
 
 ```
