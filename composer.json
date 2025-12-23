@@ -1,6 +1,6 @@
 {
     "name": "magentix/magento-csp",
-    "description": "CSP module enables Content Security Policies for Magento",
+    "description": "CSP module to disable Content Security Policies in Magento",
     "type": "magento2-module",
     "license": [
         "OSL-3.0",
@@ -8,6 +8,9 @@
     ],
     "config": {
         "sort-packages": true
+    },
+    "replace": {
+        "magento/module-csp": "*"
     },
     "autoload": {
         "files": [
